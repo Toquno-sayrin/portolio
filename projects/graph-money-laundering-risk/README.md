@@ -1,50 +1,50 @@
-# Chain-level Money-Laundering Risk Scoring
+# 거래 그래프 기반 Chain-level 자금세탁 위험도 스코어링
 
-**Area:** Graph ML · Explainable ML · Financial Security
-**Type:** Course Project — Machine Learning (Year 3, Final Project)
-**Status:** Completed
+**분야:** 그래프 ML · 설명 가능 ML · 금융 보안
+**유형:** 교과 프로젝트 — 기계학습 (3학년, 기말 프로젝트)
+**상태:** 완료
 
-> ⬅️ [Back to portfolio home](../../README.md)
+> ⬅️ [포트폴리오 홈으로](../../README.md)
 
 ---
 
-## Overview
-A model that scores **chain-level money-laundering risk over cryptocurrency transaction graphs**, paired with **explainable ML** so that risk scores can be interpreted rather than treated as a black box.
+## 개요
+**암호화폐 거래 그래프**에서 **chain-level 자금세탁 위험도**를 스코어링하고, 그 결과를 블랙박스가 아닌 **설명 가능한 방식**으로 해석할 수 있게 하는 모델입니다.
 
-## Problem
-Money laundering hides in multi-hop transaction chains, so per-transaction views miss it, and opaque risk scores are hard to act on for compliance. *[Add specific problem framing — chain definition, what "risk" means.]*
+## 문제 정의
+자금세탁은 다중 홉(multi-hop) 거래 체인 속에 숨어 있어 개별 거래 단위 관점으로는 놓치기 쉽고, 불투명한 위험도 점수는 컴플라이언스 관점에서 활용하기 어렵습니다. *[Add 구체적 문제 정의 — 체인의 정의, "위험도"의 의미]*
 
-## Method
-- Build a **transaction graph** from cryptocurrency data and derive **chain-level** features.
-- Risk-scoring model over chains. *[Add model — e.g., graph features + classifier / GNN.]*
-- **Explainability** layer to attribute risk. *[Add method — e.g., feature attribution / SHAP / rule extraction.]*
+## 방법
+- 암호화폐 데이터로부터 **거래 그래프**를 구성하고 **chain-level** 피처를 도출
+- 체인 단위 위험도 스코어링 모델. *[Add 모델 — 예: 그래프 피처 + 분류기 / GNN]*
+- 위험 요인을 귀속시키는 **설명 가능성** 계층. *[Add 방법 — 예: 피처 기여도 / SHAP / 규칙 추출]*
 
-## Dataset
-- *[Add dataset name / source — cryptocurrency transaction data]*
-- *[Add dataset description — size, graph statistics, labels]*
-- *[Add preprocessing / graph-construction steps]*
+## 데이터셋
+- *[Add 데이터셋 이름 / 출처 — 암호화폐 거래 데이터]*
+- *[Add 데이터셋 설명 — 규모, 그래프 통계, 라벨]*
+- *[Add 전처리 / 그래프 구성 과정]*
 
-## Experiments
-- *[Add baselines / comparisons]*
-- *[Add evaluation metrics]*
-- *[Add explainability evaluation]*
+## 실험
+- *[Add 베이스라인 / 비교]*
+- *[Add 평가 지표]*
+- *[Add 설명 가능성 평가]*
 
-## Results
+## 결과
 - *[Add result]*
-- *[Add figure — example scored chains / explanation output]*
+- *[Add figure — 스코어링된 체인 / 설명 결과 예시]*
 
-## My Contribution
-- *[Add your specific role]*
-- *[Add collaborators if any]*
+## 나의 기여
+- *[Add 본인의 구체적 역할]*
+- *[Add 공동 연구자(있는 경우)]*
 
-## Tech Stack
-- Python *[Verify]*
-- *[Add graph / ML libraries — e.g., NetworkX, PyTorch Geometric, scikit-learn, SHAP]*
+## 기술 스택
+- Python *[확인]*
+- *[Add 그래프 / ML 라이브러리 — 예: NetworkX, PyTorch Geometric, scikit-learn, SHAP]*
 
-## Files
-- *[Add code / notebook links]*
-- *[Add report / slides link]*
-- *[Add figures in ../../assets/figures/]*
+## 파일
+- *[Add 코드 / 노트북 링크]*
+- *[Add 보고서 / 슬라이드 링크]*
+- *[Add 그림 — ../../assets/figures/ 에 배치]*
 
-## Notes
-- *[Add limitations and future directions]*
+## 비고
+- *[Add 한계 및 향후 방향]*

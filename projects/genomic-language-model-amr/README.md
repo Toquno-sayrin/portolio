@@ -1,49 +1,49 @@
-# Mini Genomic Language Model for AMR Prediction
+# 항생제 내성(AMR) 예측을 위한 Mini Genomic Language Model
 
-**Area:** NLP · Genomics · Sequence Modeling
-**Type:** Course Project — Natural Language Processing (Year 3)
-**Status:** Completed
+**분야:** NLP · 유전체 · 시퀀스 모델링
+**유형:** 교과 프로젝트 — 자연어처리 (3학년)
+**상태:** 완료
 
-> ⬅️ [Back to portfolio home](../../README.md)
+> ⬅️ [포트폴리오 홈으로](../../README.md)
 
 ---
 
-## Overview
-A **compact ("mini") genomic language model** built to predict **antimicrobial resistance (AMR)** from genomic sequence data, applying NLP sequence-modeling techniques to biology.
+## 개요
+유전체 시퀀스 데이터로부터 **항생제 내성(AMR, Antimicrobial Resistance)** 을 예측하기 위해 만든 **소형("mini") 유전체 언어 모델**입니다. NLP 시퀀스 모델링 기법을 생물학 데이터에 적용합니다.
 
-## Problem
-Predicting whether an organism is resistant to antibiotics from its genome is high-value but data- and compute-constrained; a small, efficient language model over genomic sequences is an attractive alternative to large models. *[Add specific problem framing.]*
+## 문제 정의
+유전체로부터 항생제 내성 여부를 예측하는 것은 가치가 크지만 데이터·연산 자원 제약이 큽니다. 유전체 시퀀스에 대한 작고 효율적인 언어 모델은 대형 모델의 매력적인 대안이 될 수 있습니다. *[Add 구체적 문제 정의]*
 
-## Method
-- Treat genomic sequences as a "language" (e.g., k-mer / nucleotide tokenization). *[Add tokenization scheme.]*
-- Train a **small language model** and adapt it for AMR prediction. *[Add architecture — layers, params, pretraining vs. supervised setup.]*
+## 방법
+- 유전체 시퀀스를 하나의 "언어"로 취급 (예: k-mer / 뉴클레오타이드 토크나이징). *[Add 토크나이징 방식]*
+- **소형 언어 모델**을 학습하고 AMR 예측용으로 적응. *[Add 아키텍처 — 계층 수, 파라미터, 사전학습 vs. 지도학습 설정]*
 
-## Dataset
-- *[Add dataset name / source — genomic sequences with AMR labels]*
-- *[Add dataset description — organisms, antibiotics, size, label scheme]*
-- *[Add preprocessing / tokenization details]*
+## 데이터셋
+- *[Add 데이터셋 이름 / 출처 — AMR 라벨이 있는 유전체 시퀀스]*
+- *[Add 데이터셋 설명 — 대상 균종, 항생제, 규모, 라벨 체계]*
+- *[Add 전처리 / 토크나이징 세부]*
 
-## Experiments
-- *[Add baselines / comparisons]*
-- *[Add evaluation metrics — accuracy / F1 / AUC per antibiotic]*
+## 실험
+- *[Add 베이스라인 / 비교]*
+- *[Add 평가 지표 — 항생제별 accuracy / F1 / AUC]*
 
-## Results
+## 결과
 - *[Add result]*
 - *[Add figure]*
 
-## My Contribution
-- *[Add your specific role]*
-- *[Add collaborators if any]*
+## 나의 기여
+- *[Add 본인의 구체적 역할]*
+- *[Add 공동 연구자(있는 경우)]*
 
-## Tech Stack
-- Python, PyTorch *[Verify]*
-- Hugging Face `transformers` *[Verify]*
+## 기술 스택
+- Python, PyTorch *[확인]*
+- Hugging Face `transformers` *[확인]*
 
-## Files
-- *[Add code / notebook links]*
-- *[Add report / slides link]*
-- *[Add figures in ../../assets/figures/]*
+## 파일
+- *[Add 코드 / 노트북 링크]*
+- *[Add 보고서 / 슬라이드 링크]*
+- *[Add 그림 — ../../assets/figures/ 에 배치]*
 
-## Notes
-- Related sequence-processing work: [SARS-CoV-2 Genome K-mer Frequency Analysis](../sars-cov-2-kmer-analysis/README.md).
-- *[Add limitations and future directions]*
+## 비고
+- 관련 시퀀스 처리 프로젝트: [SARS-CoV-2 유전체 K-mer 분산처리](../sars-cov-2-kmer-analysis/README.md)
+- *[Add 한계 및 향후 방향]*

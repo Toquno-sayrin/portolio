@@ -1,52 +1,52 @@
-# Fraud Detection via Representation-Space Separation
+# 표현 공간 분리를 활용한 금융 사기 탐지
 
-**Area:** Representation Learning · Financial Fraud Detection
-**Type:** Research · **Venue:** KCC 2026 (KIISE — Korea Computer Congress)
-**Status:** Completed · *[Add publication status — submitted / accepted / presented]*
+**분야:** 표현학습 · 금융 사기 탐지
+**유형:** 연구 · **발표처:** KCC 2026 (한국정보과학회 · Korea Computer Congress)
+**상태:** 완료 · *[Add 게재 상태 — 제출 / 게재 / 발표]*
 
-> ⬅️ [Back to portfolio home](../../README.md)
+> ⬅️ [포트폴리오 홈으로](../../README.md)
 
 ---
 
-## Overview
-A study on improving financial fraud detection by encouraging **separation between fraudulent and normal behavior in the learned representation space**. The goal is to make fraud signals more linearly separable / distinguishable in latent space, improving both detection quality and interpretability.
+## 개요
+학습된 **표현 공간(representation space)에서 사기 거래와 정상 거래를 분리**하여 금융 사기 탐지 성능을 높이는 연구입니다. 사기 신호를 잠재 공간에서 더 잘 구분되도록 만들어 탐지 품질과 해석 가능성을 함께 개선하는 것을 목표로 합니다.
 
-## Problem
-Fraudulent transactions are rare, adversarial, and often overlap with normal behavior in raw feature space, which limits standard classifiers. *[Add specific problem framing, e.g., class imbalance ratio, dataset domain, evaluation constraints.]*
+## 문제 정의
+사기 거래는 희귀하고 적대적이며, 원본 특징 공간에서는 정상 거래와 크게 겹쳐 일반적인 분류기의 성능이 제한됩니다. *[Add 구체적 문제 정의 — 예: 클래스 불균형 비율, 데이터 도메인, 평가 제약]*
 
-## Method
-- Learn representations that **separate** fraudulent vs. normal transactions in embedding space.
-- *[Add model architecture — e.g., encoder type, loss functions used to encourage separation (contrastive / margin / center loss / etc.)]*
-- *[Add training setup — objective, regularization, how separation is measured]*
+## 방법
+- 사기/정상 거래를 임베딩 공간에서 **분리**하도록 표현을 학습
+- *[Add 모델 구조 — 인코더 유형, 분리를 유도하는 손실함수(contrastive / margin / center loss 등)]*
+- *[Add 학습 설정 — 목적함수, 정규화, 분리 정도 측정 방법]*
 
-## Dataset
-- *[Add dataset name / source]*
-- *[Add dataset description — size, features, label definition, fraud ratio]*
-- *[Add preprocessing steps]*
+## 데이터셋
+- *[Add 데이터셋 이름 / 출처]*
+- *[Add 데이터셋 설명 — 규모, 피처, 라벨 정의, 사기 비율]*
+- *[Add 전처리 과정]*
 
-## Experiments
-- *[Add baselines compared against]*
-- *[Add ablations — with vs. without representation separation]*
-- *[Add evaluation metrics — e.g., precision / recall / F1 / AUC / AUPRC]*
+## 실험
+- *[Add 비교 대상 베이스라인]*
+- *[Add 어블레이션 — 표현 분리 적용 유무 비교]*
+- *[Add 평가 지표 — 예: precision / recall / F1 / AUC / AUPRC]*
 
-## Results
-- *[Add result — headline metric(s)]*
-- *[Add result — comparison vs. baseline]*
-- *[Add figure — representation-space visualization (e.g., t-SNE/UMAP)]*
+## 결과
+- *[Add result — 핵심 지표]*
+- *[Add result — 베이스라인 대비 비교]*
+- *[Add figure — 표현 공간 시각화(t-SNE/UMAP)]*
 
-## My Contribution
-- *[Add your specific role — e.g., problem formulation, model design, experiments, writing]*
-- *[Add collaborators if any]*
+## 나의 기여
+- *[Add 본인의 구체적 역할 — 예: 문제 정의, 모델 설계, 실험, 논문 작성]*
+- *[Add 공동 연구자(있는 경우)]*
 
-## Tech Stack
-- Python, PyTorch *[Verify]*
-- *[Add libraries — scikit-learn, numpy, pandas, visualization tools]*
+## 기술 스택
+- Python, PyTorch *[확인]*
+- *[Add 라이브러리 — scikit-learn, numpy, pandas, 시각화 도구 등]*
 
-## Files
-- *[Add code / notebook links]*
-- *[Add paper / slides link]*
-- *[Add figures in ../../assets/figures/]*
+## 파일
+- *[Add 코드 / 노트북 링크]*
+- *[Add 논문 / 슬라이드 링크]*
+- *[Add 그림 — ../../assets/figures/ 에 배치]*
 
-## Notes
-- Presented at / targeted for **KCC 2026 (KIISE)**.
-- *[Add related work, limitations, future directions]*
+## 비고
+- KCC 2026 (한국정보과학회) 대상 연구.
+- *[Add 관련 연구, 한계, 향후 방향]*

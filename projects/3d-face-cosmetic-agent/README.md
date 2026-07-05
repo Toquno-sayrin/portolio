@@ -1,51 +1,52 @@
-# 3D Facial Bone Analysis + Personalized Cosmetic Agent
+# 3D 얼굴 골격 분석 + 개인 맞춤형 화장 추천 에이전트
 
-**Area:** Multimodal Learning · Generative Models · Recommendation
-**Type:** Research · **Venue:** IEIE 2025 (Institute of Electronics and Information Engineers of Korea)
-**Status:** Completed · *[Add publication status — submitted / accepted / presented]*
+**분야:** 멀티모달 학습 · 생성 모델 · 추천
+**유형:** 연구 · **발표처:** IEIE 2025 (대한전자공학회 · Institute of Electronics and Information Engineers of Korea)
+**상태:** 완료 · *[Add 게재 상태 — 제출 / 게재 / 발표]*
 
-> ⬅️ [Back to portfolio home](../../README.md)
+> ⬅️ [포트폴리오 홈으로](../../README.md)
 
 ---
 
-## Overview
-An agent that combines **3D facial-structure (bone) analysis** with **multimodal generation** to produce **personalized makeup / cosmetic recommendations**. The system reasons about individual facial geometry to tailor its suggestions.
+## 개요
+**3D 얼굴 골격(구조) 분석**과 **멀티모달 생성**을 결합해 **개인 맞춤형 화장/뷰티 추천**을 제공하는 에이전트입니다. 개인의 얼굴 기하 구조를 바탕으로 추천을 개인화합니다.
 
-## Problem
-Cosmetic recommendation is highly individual and depends on 3D facial structure, which flat 2D approaches capture poorly. *[Add specific problem framing — target users, what "personalization" means here.]*
+## 문제 정의
+화장/뷰티 추천은 3D 얼굴 구조에 크게 의존하는 매우 개인화된 문제이지만, 평면적인 2D 접근으로는 이를 제대로 포착하기 어렵습니다. *[Add 구체적 문제 정의 — 대상 사용자, "개인화"의 정의]*
 
-## Method
-- **3D facial bone / structure analysis** to characterize individual geometry.
-- **Multimodal generation** to produce recommendations / visualizations.
-- Agent orchestration combining analysis and generation. *[Add architecture details — models, pipeline stages, how modalities are fused.]*
+## 방법
+- 개인 얼굴 기하 특성을 파악하기 위한 **3D 얼굴 골격/구조 분석**
+- 추천/시각화를 생성하는 **멀티모달 생성**
+- 분석과 생성을 결합하는 에이전트 오케스트레이션. *[Add 아키텍처 세부 — 모델, 파이프라인 단계, 모달리티 융합 방식]*
 
-## Dataset
-- *[Add dataset name / source — e.g., 3D face scans, facial landmark data]*
-- *[Add dataset description — size, modalities, annotations]*
-- *[Add preprocessing / 3D reconstruction steps]*
+## 데이터셋
+- *[Add 데이터셋 이름 / 출처 — 예: 3D 얼굴 스캔, 랜드마크 데이터]*
+- *[Add 데이터셋 설명 — 규모, 모달리티, 어노테이션]*
+- *[Add 전처리 / 3D 복원 과정]*
 
-## Experiments
-- *[Add evaluation setup — quantitative and/or qualitative]*
-- *[Add baselines / comparisons]*
-- *[Add user study details if any]*
+## 실험
+- *[Add 평가 설정 — 정량/정성]*
+- *[Add 베이스라인 / 비교]*
+- *[Add 사용자 스터디(있는 경우)]*
 
-## Results
+## 결과
 - *[Add result]*
-- *[Add figure — example recommendations / generated outputs]*
+- *[Add figure — 추천/생성 결과 예시]*
 
-## My Contribution
-- *[Add your specific role]*
-- *[Add collaborators if any]*
+## 나의 기여
+- *[Add 본인의 구체적 역할]*
+- *[Add 공동 연구자(있는 경우)]*
 
-## Tech Stack
-- Python *[Verify]*
-- *[Add 3D / vision libraries, generative model frameworks]*
+## 기술 스택
+- Python *[확인]*
+- *[Add 3D / 비전 라이브러리, 생성모델 프레임워크]*
 
-## Files
-- *[Add code / demo links]*
-- *[Add paper / slides link]*
-- *[Add figures in ../../assets/figures/]*
+## 파일
+- *[Add 코드 / 데모 링크]*
+- *[Add 논문 / 슬라이드 링크]*
+- *[Add 그림 — ../../assets/figures/ 에 배치]*
 
-## Notes
-- Presented at / targeted for **IEIE 2025**.
-- *[Add limitations and future directions]*
+## 비고
+- IEIE 2025 (대한전자공학회) 대상 연구.
+- 관련 프로젝트: [멀티모달 피부 분석·추천](../multimodal-skin-analysis/README.md)
+- *[Add 한계 및 향후 방향]*

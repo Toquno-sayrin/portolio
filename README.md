@@ -1,120 +1,156 @@
-# Yearim Jeong — AI/ML Research Portfolio
+# 정예림 (Yearim Jeong) — AI/ML 연구 포트폴리오
 
-> Computer Science undergraduate focused on **representation learning**, **multimodal learning**, **applied ML for genomics & security**, and **MLOps**.
-> This repository collects my research and engineering projects across the full ML pipeline — from problem formulation and modeling to distributed processing and deployment concerns.
+> **다양한 도메인·데이터 유형을 넘나드는 응용 ML 연구 · MLOps로 확장 중인 컴퓨터공학 학부생**
+> 금융·화장품/의료·유전체·그래프·분산 빅데이터까지 서로 다른 데이터 유형을 다뤄 왔고,
+> 그 경험을 확장성과 **MLOps** 방향으로 이어가고 있습니다.
 
 <p align="center">
-  <a href="#-featured-projects">Featured Projects</a> ·
-  <a href="#-research-projects">Research</a> ·
-  <a href="#-course-projects">Course Projects</a> ·
-  <a href="#-certifications">Certifications</a> ·
-  <a href="#-contact">Contact</a>
+  <a href="#-핵심-역량">핵심 역량</a> ·
+  <a href="#-연구-방향성과-여정">연구 여정</a> ·
+  <a href="#-대표-프로젝트">대표 프로젝트</a> ·
+  <a href="#-전체-프로젝트">전체 프로젝트</a> ·
+  <a href="#-자격증">자격증</a> ·
+  <a href="#-연락처">연락처</a>
 </p>
 
 ---
 
-## 🎯 Core Research Interests
+## 👋 소개
 
-- **Representation Learning** — learning disentangled / separable latent spaces (e.g., separating fraudulent vs. normal behavior in embedding space)
-- **Multimodal Learning** — combining image, structured, and generative signals for perception and recommendation
-- **Applied ML for Science & Security** — genomics (AMR prediction, K-mer analysis), financial fraud, anti–money-laundering
-- **Parameter-Efficient & Generative Models** — PEFT (LoRA, LN-tuning), generative pipelines, AI-generated content detection
-- **MLOps & Scalable ML** — distributed data processing, reproducible experiments, model lifecycle
+컴퓨터공학을 전공하며 **표현학습**, **멀티모달 학습**, **응용 머신러닝**, 그리고 **MLOps**에 관심을 두고 연구·프로젝트를 진행해 왔습니다.
 
-## 🛠️ Technical Skills
+제 포트폴리오의 특징은 **하나의 좁은 태스크가 아니라, 서로 다른 도메인과 데이터 유형을 의도적으로 폭넓게 경험**했다는 점입니다. 정형 금융 거래 데이터부터 얼굴·피부 이미지, 유전체 시퀀스, 거래 그래프, 대규모 분산 빅데이터까지 다뤄 보며 "데이터 유형이 바뀌어도 문제를 모델링으로 풀어내는 감각"을 키웠습니다.
 
-| Category | Tools & Frameworks |
-|---|---|
-| **Languages** | Python, SQL |
-| **ML / DL** | PyTorch, Hugging Face Transformers, PEFT (LoRA / LN-tuning), scikit-learn |
-| **Multimodal / Vision** | CNNs, Vision Transformers, generative models |
-| **Graph ML** | Graph-based modeling, explainable ML *(see project READMEs for specifics)* |
-| **Data & Scale** | pandas, NumPy, distributed processing *(e.g., Spark/Hadoop — see K-mer project)* |
-| **MLOps** | Experiment tracking, reproducible pipelines *(tooling per project)* |
+최근에는 모델링을 넘어 **데이터 처리·확장성·재현성**으로 관심이 확장되어, 분산 처리 기반의 유전체 K-mer 분석 연구까지 진행했습니다. 이 흐름을 **MLOps 및 확장 가능한 ML 파이프라인** 방향으로 계속 이어가고자 합니다.
 
-> Per-project tech stacks are documented in each project's README. Items marked with *(...)* vary by project.
+## 🧭 핵심 역량
 
----
+- **머신러닝 / 딥러닝** — 표현학습, 분류, 시퀀스 모델링, 컴퓨터 비전
+- **표현학습 · 멀티모달** — 잠재 표현 공간 분리, 이미지·정형·생성 신호 결합
+- **유전체 · 시퀀스** — 유전체 언어 모델, K-mer 기반 시퀀스 분석
+- **그래프 · 설명 가능 ML** — 거래 그래프 모델링, 위험도 스코어링, 해석 가능성
+- **PEFT · 생성모델** — LoRA / LN-tuning, AI 생성 콘텐츠 탐지
+- **데이터 · 분산 처리** — 대규모 데이터 전처리, 분산 처리 최적화
+- **MLOps (관심·확장 중)** — 재현 가능한 파이프라인, 확장 가능한 데이터/모델 워크플로
+- **프로그래밍** — Python, SQL / PyTorch, Hugging Face, scikit-learn
 
-## ⭐ Featured Projects
-
-| # | Project | Area | One-line Summary | Status | Details |
-|---|---------|------|------------------|--------|---------|
-| 1 | Fraud Detection via Representation-Space Separation | Representation Learning | Study on separating fraudulent and normal transactions in latent representation space | Completed · KCC 2026 | [Details »](projects/fraud-representation-separation/README.md) |
-| 2 | 3D Facial Bone Analysis + Personalized Cosmetic Agent | Multimodal / Generative | Agent combining 3D facial-structure analysis with multimodal generation for personalized makeup recommendation | Completed · IEIE 2025 | [Details »](projects/3d-face-cosmetic-agent/README.md) |
-| 3 | Multimodal Skin Analysis & Cosmetic Recommendation | Multimodal Learning | Multimodal skin condition analysis driving cosmetic-product recommendation | Completed | [Details »](projects/multimodal-skin-analysis/README.md) |
-| 4 | Chain-level Money-Laundering Risk Scoring | Graph ML / Explainable ML | Chain-level AML risk scoring over cryptocurrency transaction graphs with explainable ML | Completed | [Details »](projects/graph-money-laundering-risk/README.md) |
-| 5 | PEFT for AI-Generated Image Detection | Computer Vision / PEFT | Comparative study of LN-tuning vs. LoRA for detecting AI-generated images | Completed | [Details »](projects/ai-image-detection-peft/README.md) |
-| 6 | Mini Genomic Language Model for AMR | NLP / Genomics | Compact genomic language model for antimicrobial-resistance (AMR) prediction | Completed | [Details »](projects/genomic-language-model-amr/README.md) |
-| 7 | SARS-CoV-2 Genome K-mer Frequency Analysis | Big Data / Bioinformatics | Distributed-processing optimization for K-mer frequency analysis of SARS-CoV-2 genomes | Completed | [Details »](projects/sars-cov-2-kmer-analysis/README.md) |
-
-*Ordered by research depth and demonstrated scope, not chronology.*
+> 프로젝트별 세부 기술 스택은 각 프로젝트 README에 정리되어 있습니다.
 
 ---
 
-## 🔬 Research Projects
+## 🧵 연구 방향성과 여정
 
-Peer-review-oriented work, targeting or presented at academic venues.
+제 프로젝트들은 산발적인 과제 모음이 아니라, **데이터 유형을 점점 넓혀 온 하나의 궤적**입니다.
 
-- **Fraud Detection via Representation-Space Separation** — *KCC 2026 (KIISE, Korea Computer Congress)*
-  Investigates how separating representation spaces improves detection of fraudulent financial transactions.
-  → [projects/fraud-representation-separation](projects/fraud-representation-separation/README.md)
+**정형·금융 데이터**(표현 공간 분리 기반 사기 탐지)에서 시작해 → **이미지·멀티모달**(3D 얼굴 골격 분석, 피부 분석 기반 화장품 추천)로 확장하고 → **시퀀스·유전체**(AMR 예측용 유전체 언어 모델)와 **그래프**(자금세탁 위험도 스코어링), **비전·PEFT**(AI 생성 이미지 탐지)로 문제 유형을 다양화했습니다. 그리고 **분산 빅데이터**(SARS-CoV-2 K-mer 분산처리)에 이르러 모델링을 넘어 **확장성·데이터 파이프라인·MLOps**로 관심이 수렴하고 있습니다.
 
-- **3D Facial Bone Analysis + Personalized Cosmetic Agent** — *IEIE 2025 (Institute of Electronics and Information Engineers of Korea)*
-  Combines 3D facial-structure analysis with multimodal generation to build a personalized makeup-recommendation agent.
-  → [projects/3d-face-cosmetic-agent](projects/3d-face-cosmetic-agent/README.md)
+## 🗺️ 도메인 × 데이터 유형
 
-- **Multimodal Skin Analysis & Cosmetic Recommendation**
-  Multimodal analysis of skin condition to drive personalized cosmetic recommendation. *[Add venue / status]*
-  → [projects/multimodal-skin-analysis](projects/multimodal-skin-analysis/README.md)
+다양한 데이터 유형을 다뤄 온 경험을 한눈에 정리했습니다.
 
-> Publication status per venue: *[Add publication status — submitted / accepted / presented]*.
+| 프로젝트 | 도메인 | 데이터 유형 | 접근 |
+|---|---|---|---|
+| 표현 공간 분리 사기 탐지 | 금융 보안 | 정형 거래 데이터 | 표현학습 |
+| 3D 얼굴 골격 화장 에이전트 | 뷰티/헬스 | 3D 얼굴·멀티모달 | 멀티모달·생성 |
+| 멀티모달 피부 분석·추천 | 뷰티/헬스 | 이미지·멀티모달 | 멀티모달·추천 |
+| 유전체 언어 모델 (AMR) | 바이오/의료 | 유전체 시퀀스 | NLP·시퀀스 모델링 |
+| 자금세탁 위험도 스코어링 | 금융 보안 | 거래 그래프 | 그래프·설명가능 ML |
+| AI 생성 이미지 탐지 (PEFT) | 컴퓨터 비전 | 이미지 | PEFT (LoRA/LN-tuning) |
+| SARS-CoV-2 K-mer 분산처리 | 바이오/빅데이터 | 대규모 시퀀스 | 분산 처리·MLOps 방향 |
 
-## 📚 Course Projects
+---
 
-Graded coursework demonstrating breadth across ML subfields.
+## ⭐ 대표 프로젝트
 
-| Project | Course | Area |
+연구 깊이와 확장 궤적을 가장 잘 보여주는 세 가지입니다.
+
+### 1. 표현 공간 분리를 활용한 금융 사기 탐지 &nbsp;·&nbsp; `표현학습` `KCC 2026`
+
+> 정상/사기 거래를 **잠재 표현 공간에서 분리**하여 탐지 성능과 해석 가능성을 높이는 연구.
+
+- **핵심 아이디어** — 원본 특징 공간에서 겹치는 사기 신호를, 학습된 표현 공간에서 더 잘 구분되도록 분리
+- **연구 성격** — KCC 2026 (한국정보과학회) 대상 연구 · *[Add 게재 상태: 제출/게재/발표]*
+- **주요 결과** — *[Add result: 주요 지표]* · *[Add figure: 표현 공간 시각화(t-SNE/UMAP)]*
+- **기술 스택** — Python, PyTorch *[확인]* · *[Add: 손실함수/라이브러리]*
+- 📄 [상세 보기 »](projects/fraud-representation-separation/README.md)
+
+### 2. 3D 얼굴 골격 분석 + 개인 맞춤형 화장 추천 에이전트 &nbsp;·&nbsp; `멀티모달·생성` `IEIE 2025`
+
+> **3D 얼굴 골격 분석**과 **멀티모달 생성**을 결합해 개인 맞춤형 화장법을 추천하는 에이전트.
+
+- **핵심 아이디어** — 개인의 3D 얼굴 구조를 분석하고, 멀티모달 생성으로 맞춤형 추천/시각화 제공
+- **연구 성격** — IEIE 2025 (대한전자공학회) 대상 연구 · *[Add 게재 상태]*
+- **주요 결과** — *[Add result]* · *[Add figure: 추천/생성 결과 예시]*
+- **기술 스택** — Python *[확인]* · *[Add: 3D/비전·생성 프레임워크]*
+- 📄 [상세 보기 »](projects/3d-face-cosmetic-agent/README.md)
+
+### 3. SARS-CoV-2 유전체 K-mer 빈도 분산처리 &nbsp;·&nbsp; `빅데이터·MLOps 방향` `과제`
+
+> 대규모 유전체 데이터의 **K-mer 빈도 분석을 분산 처리로 최적화** — 모델링을 넘어 **확장성·데이터 파이프라인**으로 관심이 넓어진 출발점.
+
+- **핵심 아이디어** — 단일 노드로는 확장되지 않는 K-mer 카운팅을 분산 처리로 최적화
+- **의미** — 빅데이터분석 교과 과제로 진행했으며, 이후 **MLOps·확장 가능한 ML 파이프라인**에 대한 관심으로 이어짐
+- **주요 결과** — *[Add result: 속도향상/처리량 수치]* · *[Add figure: 스케일링 성능 그래프]*
+- **기술 스택** — Python *[확인]* · *[Add: Spark/Hadoop 등 분산 프레임워크]*
+- 📄 [상세 보기 »](projects/sars-cov-2-kmer-analysis/README.md)
+
+---
+
+## 📂 전체 프로젝트
+
+### 연구 프로젝트
+
+| 프로젝트 | 분야 | 한 줄 요약 | 상태 | 상세 |
+|---|---|---|---|---|
+| 표현 공간 분리 사기 탐지 | 표현학습 · 금융 보안 | 정상/사기 거래를 표현 공간에서 분리해 탐지 | 완료 · KCC 2026 | [보기](projects/fraud-representation-separation/README.md) |
+| 3D 얼굴 골격 화장 에이전트 | 멀티모달 · 생성 | 3D 얼굴 구조 분석 + 멀티모달 생성 기반 맞춤 화장 추천 | 완료 · IEIE 2025 | [보기](projects/3d-face-cosmetic-agent/README.md) |
+| 멀티모달 피부 분석·추천 | 멀티모달 학습 | 피부 상태 멀티모달 분석 기반 화장품 추천 | 완료 | [보기](projects/multimodal-skin-analysis/README.md) |
+
+### 교과 프로젝트
+
+| 프로젝트 | 분야 | 한 줄 요약 | 상태 | 상세 |
+|---|---|---|---|---|
+| 자금세탁 위험도 스코어링 | 그래프 · 설명가능 ML | 암호화폐 거래 그래프 기반 chain-level 위험도 스코어링 | 완료 · 기계학습(3학년) | [보기](projects/graph-money-laundering-risk/README.md) |
+| AI 생성 이미지 탐지 (PEFT) | 컴퓨터 비전 · PEFT | LN-tuning vs. LoRA 비교로 AI 생성 이미지 탐지 | 완료 · 컴퓨터비전(3학년) | [보기](projects/ai-image-detection-peft/README.md) |
+| 유전체 언어 모델 (AMR) | NLP · 유전체 | 항생제 내성(AMR) 예측용 소형 유전체 언어 모델 | 완료 · 자연어처리(3학년) | [보기](projects/genomic-language-model-amr/README.md) |
+| SARS-CoV-2 K-mer 분산처리 | 빅데이터 · 바이오 | 유전체 K-mer 빈도 분석의 분산 처리 최적화 | 완료 · 빅데이터분석(4학년) | [보기](projects/sars-cov-2-kmer-analysis/README.md) |
+
+---
+
+## 🏅 자격증
+
+| 자격증 | 발급 기관 | 상태 |
 |---|---|---|
-| [Chain-level Money-Laundering Risk Scoring](projects/graph-money-laundering-risk/README.md) | Machine Learning (Year 3) | Graph ML · Explainable ML |
-| [PEFT for AI-Generated Image Detection](projects/ai-image-detection-peft/README.md) | Computer Vision (Year 3) | Vision · PEFT |
-| [Mini Genomic Language Model for AMR](projects/genomic-language-model-amr/README.md) | Natural Language Processing (Year 3) | NLP · Genomics |
-| [SARS-CoV-2 Genome K-mer Frequency Analysis](projects/sars-cov-2-kmer-analysis/README.md) | Big Data Analysis (Year 4) | Distributed Computing · Bioinformatics |
-
-## 🏅 Certifications
-
-| Certification | Issuer | Status |
-|---|---|---|
-| **SQLD** (SQL Developer, nationally recognized certification) | Korea Data Agency (한국데이터산업진흥원) | Completed |
+| **SQLD** (SQL 개발자, 국가공인 민간자격) | 한국데이터산업진흥원 | 완료 |
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂️ 저장소 구조
 
 ```
 portfolio/
-├── README.md                                  # This portfolio home
+├── README.md                                   # 포트폴리오 홈 (현재 문서)
 ├── projects/
-│   ├── fraud-representation-separation/        # Research · KCC 2026
-│   ├── 3d-face-cosmetic-agent/                 # Research · IEIE 2025
-│   ├── multimodal-skin-analysis/               # Research
-│   ├── graph-money-laundering-risk/            # Course · Machine Learning
-│   ├── ai-image-detection-peft/                # Course · Computer Vision
-│   ├── genomic-language-model-amr/             # Course · NLP
-│   └── sars-cov-2-kmer-analysis/               # Course · Big Data
+│   ├── fraud-representation-separation/         # 연구 · KCC 2026
+│   ├── 3d-face-cosmetic-agent/                  # 연구 · IEIE 2025
+│   ├── multimodal-skin-analysis/                # 연구
+│   ├── graph-money-laundering-risk/             # 교과 · 기계학습
+│   ├── ai-image-detection-peft/                 # 교과 · 컴퓨터비전
+│   ├── genomic-language-model-amr/              # 교과 · 자연어처리
+│   └── sars-cov-2-kmer-analysis/                # 교과 · 빅데이터분석
 ├── assets/
-│   ├── images/                                 # Screenshots, diagrams
-│   └── figures/                                # Result figures, plots
-└── docs/                                       # Additional documentation
+│   ├── images/                                  # 스크린샷, 다이어그램
+│   └── figures/                                 # 결과 그림, 플롯
+└── docs/                                        # 추가 문서
 ```
 
 ---
 
-## 📫 Contact
+## 📫 연락처
 
-- **Name:** Yearim Jeong (정예림)
-- **Email:** yearim0526@gmail.com
-- **GitHub:** [@Toquno-sayrin](https://github.com/Toquno-sayrin) *[Verify / update handle]*
-- **Focus:** AI research · representation learning · multimodal learning · MLOps · applied ML
+- **이름** — 정예림 (Yearim Jeong)
+- **이메일** — yearim0526@gmail.com
+- **GitHub** — [@Toquno-sayrin](https://github.com/Toquno-sayrin)
+- **관심 분야** — AI 연구 · 표현학습 · 멀티모달 학습 · MLOps · 응용 머신러닝
 
-> Open to research collaboration, graduate-research opportunities, and ML engineering roles.
+> 연구 협업, 대학원 연구 기회, ML 엔지니어링 관련 문의를 환영합니다.

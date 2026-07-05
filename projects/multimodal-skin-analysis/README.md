@@ -1,50 +1,50 @@
-# Multimodal Skin Analysis & Cosmetic Recommendation
+# 멀티모달 피부 분석 및 화장품 추천
 
-**Area:** Multimodal Learning · Recommendation
-**Type:** Research / Applied ML
-**Status:** Completed · *[Add venue / publication status if applicable]*
+**분야:** 멀티모달 학습 · 추천
+**유형:** 연구 / 응용 ML
+**상태:** 완료 · *[Add 발표처 / 게재 상태(해당 시)]*
 
-> ⬅️ [Back to portfolio home](../../README.md)
+> ⬅️ [포트폴리오 홈으로](../../README.md)
 
 ---
 
-## Overview
-A multimodal system that analyzes **skin condition** and uses the result to drive **personalized cosmetic-product recommendation**, combining visual and structured signals.
+## 개요
+**피부 상태**를 멀티모달로 분석하고, 그 결과를 바탕으로 **개인 맞춤형 화장품 추천**을 제공하는 시스템입니다. 시각 정보와 정형 정보를 함께 활용합니다.
 
-## Problem
-Skin condition is multi-faceted and hard to capture from a single modality, making generic product recommendations unreliable. *[Add specific problem framing — target skin attributes, recommendation objective.]*
+## 문제 정의
+피부 상태는 여러 요인이 얽혀 있어 단일 모달리티만으로는 포착하기 어렵고, 이로 인해 일반화된 제품 추천은 신뢰도가 떨어집니다. *[Add 구체적 문제 정의 — 대상 피부 속성, 추천 목표]*
 
-## Method
-- Multimodal analysis of skin condition. *[Add modalities used — e.g., facial images + questionnaire / metadata.]*
-- Mapping from analyzed skin state to product recommendation. *[Add model / matching approach.]*
-- *[Add architecture and fusion strategy.]*
+## 방법
+- 피부 상태에 대한 멀티모달 분석. *[Add 사용 모달리티 — 예: 얼굴 이미지 + 설문/메타데이터]*
+- 분석된 피부 상태 → 제품 추천으로의 매핑. *[Add 모델 / 매칭 방식]*
+- *[Add 아키텍처 및 융합 전략]*
 
-## Dataset
-- *[Add dataset name / source]*
-- *[Add dataset description — size, modalities, labels]*
-- *[Add preprocessing steps]*
+## 데이터셋
+- *[Add 데이터셋 이름 / 출처]*
+- *[Add 데이터셋 설명 — 규모, 모달리티, 라벨]*
+- *[Add 전처리 과정]*
 
-## Experiments
-- *[Add evaluation setup]*
-- *[Add baselines / comparisons]*
+## 실험
+- *[Add 평가 설정]*
+- *[Add 베이스라인 / 비교]*
 
-## Results
+## 결과
 - *[Add result]*
 - *[Add figure]*
 
-## My Contribution
-- *[Add your specific role]*
-- *[Add collaborators if any]*
+## 나의 기여
+- *[Add 본인의 구체적 역할]*
+- *[Add 공동 연구자(있는 경우)]*
 
-## Tech Stack
-- Python *[Verify]*
-- *[Add vision / ML libraries]*
+## 기술 스택
+- Python *[확인]*
+- *[Add 비전 / ML 라이브러리]*
 
-## Files
-- *[Add code / notebook links]*
-- *[Add report / slides link]*
-- *[Add figures in ../../assets/figures/]*
+## 파일
+- *[Add 코드 / 노트북 링크]*
+- *[Add 보고서 / 슬라이드 링크]*
+- *[Add 그림 — ../../assets/figures/ 에 배치]*
 
-## Notes
-- *[Add relationship to the 3D facial cosmetic-agent project, if related]*
-- *[Add limitations and future directions]*
+## 비고
+- 관련 프로젝트: [3D 얼굴 골격 화장 추천 에이전트](../3d-face-cosmetic-agent/README.md)
+- *[Add 한계 및 향후 방향]*

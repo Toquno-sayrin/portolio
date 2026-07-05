@@ -1,49 +1,51 @@
-# SARS-CoV-2 Genome K-mer Frequency Analysis (Distributed Optimization)
+# SARS-CoV-2 유전체 K-mer 빈도 분산처리 최적화
 
-**Area:** Big Data · Distributed Computing · Bioinformatics
-**Type:** Course Project — Big Data Analysis (Year 4)
-**Status:** Completed
+**분야:** 빅데이터 · 분산 컴퓨팅 · 생명정보학
+**유형:** 교과 프로젝트 — 빅데이터분석 (4학년)
+**상태:** 완료
 
-> ⬅️ [Back to portfolio home](../../README.md)
+> ⬅️ [포트폴리오 홈으로](../../README.md)
 
 ---
 
-## Overview
-**Distributed-processing optimization** for computing **K-mer frequency** across **SARS-CoV-2 genome** data — focused on scaling the analysis efficiently rather than running it on a single machine.
+## 개요
+**SARS-CoV-2 유전체** 데이터에 대한 **K-mer 빈도 계산**을 **분산 처리로 최적화**한 프로젝트입니다. 단일 머신에서 실행하는 대신 효율적으로 확장하는 데 초점을 맞췄습니다.
 
-## Problem
-K-mer frequency counting over large genomic corpora is computationally and memory intensive; naive single-node processing does not scale. *[Add specific problem framing — data volume, value of K, bottlenecks.]*
+> 💡 이 프로젝트는 모델링을 넘어 **데이터 처리·확장성·MLOps**로 제 관심이 넓어진 계기가 되었습니다.
 
-## Method
-- Distributed K-mer counting pipeline. *[Add framework — e.g., Spark / Hadoop MapReduce.]*
-- Optimizations for throughput / memory. *[Add specific optimizations — partitioning, parallelism, data layout.]*
+## 문제 정의
+대규모 유전체 코퍼스에 대한 K-mer 빈도 계산은 연산·메모리 부담이 크며, 단순한 단일 노드 처리로는 확장되지 않습니다. *[Add 구체적 문제 정의 — 데이터 규모, K 값, 병목 지점]*
 
-## Dataset
-- SARS-CoV-2 genome sequences. *[Add source — e.g., NCBI / GISAID]*
-- *[Add dataset description — number of genomes, total size]*
-- *[Add preprocessing steps]*
+## 방법
+- 분산 K-mer 카운팅 파이프라인. *[Add 프레임워크 — 예: Spark / Hadoop MapReduce]*
+- 처리량/메모리 최적화. *[Add 구체적 최적화 — 파티셔닝, 병렬화, 데이터 레이아웃]*
 
-## Experiments
-- *[Add scaling experiments — runtime vs. nodes/cores, K values]*
-- *[Add baseline — single-node vs. distributed]*
+## 데이터셋
+- SARS-CoV-2 유전체 시퀀스. *[Add 출처 — 예: NCBI / GISAID]*
+- *[Add 데이터셋 설명 — 유전체 수, 전체 용량]*
+- *[Add 전처리 과정]*
 
-## Results
-- *[Add result — speedup / throughput numbers]*
-- *[Add figure — scaling / performance plot]*
+## 실험
+- *[Add 스케일링 실험 — 노드/코어 수 대비 실행 시간, K 값별]*
+- *[Add 베이스라인 — 단일 노드 vs. 분산]*
 
-## My Contribution
-- *[Add your specific role]*
-- *[Add collaborators if any]*
+## 결과
+- *[Add result — 속도향상 / 처리량 수치]*
+- *[Add figure — 스케일링 / 성능 플롯]*
 
-## Tech Stack
-- Python *[Verify]*
-- Distributed framework *[Add — Spark / Hadoop / other]*
+## 나의 기여
+- *[Add 본인의 구체적 역할]*
+- *[Add 공동 연구자(있는 경우)]*
 
-## Files
-- *[Add code / notebook links]*
-- *[Add report / slides link]*
-- *[Add figures in ../../assets/figures/]*
+## 기술 스택
+- Python *[확인]*
+- 분산 처리 프레임워크 *[Add — Spark / Hadoop / 기타]*
 
-## Notes
-- Related sequence-modeling work: [Mini Genomic Language Model for AMR](../genomic-language-model-amr/README.md).
-- *[Add limitations and future directions]*
+## 파일
+- *[Add 코드 / 노트북 링크]*
+- *[Add 보고서 / 슬라이드 링크]*
+- *[Add 그림 — ../../assets/figures/ 에 배치]*
+
+## 비고
+- 관련 시퀀스 모델링 프로젝트: [AMR 예측용 Mini Genomic Language Model](../genomic-language-model-amr/README.md)
+- *[Add 한계 및 향후 방향]*
